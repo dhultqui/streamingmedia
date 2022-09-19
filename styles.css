@@ -139,12 +139,14 @@ dl {
     color: #590242;
 }
 dt {
-    font-family: 'RalewayExtraLight';
+    font-family: 'Raleway';
+    font-weight: lighter;
+    font-style: italic;
     font-size: 16px;
     padding-right: 5px;
 }
 dd {
-    font-family: 'RalewayRegular';
+    font-family: 'Raleway';
     font-size: 16px;
 }
 audio {
@@ -153,7 +155,8 @@ audio {
     left: 5px;
 }
 .more {
-    font-family: 'RalewayBold';
+    font-family: 'Raleway';
+    font-weight: bold;
     font-size: 14px;
     text-decoration: none;
     background-color: #590242;
@@ -210,9 +213,7 @@ body {
     color: #FFFFFF;
 }
 header p {
-    font-family: 'RalewayRegular', sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'Raleway';
     font-size: 20px;
     line-height: 2em;
     color: #FFFFFF;
@@ -222,7 +223,8 @@ header {
 }
 h1 {
     font-size: 20px;
-    font-family: 'RalewayBold';
+    font-family: 'Raleway';
+    font-weight: bold;
     line-height: 2em;
     color: #FFFFFF;
 }
@@ -231,7 +233,8 @@ h1, h2, h3 {
     text-transform: uppercase;
 }
 h2, h3 {
-    font-family: 'RalewayBold';
+    font-family: 'Raleway';
+    font-weight: bold;
     line-height: 2em;
     /*More????????????????????.........*/
 }
@@ -244,7 +247,7 @@ h3 {
     color: #FFFFFF;
 }
 #playlists p, #curated p {
-    font-family: 'RalewayRegular';
+    font-family: 'Raleway';
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -252,7 +255,8 @@ h3 {
     color: #590242;
 }
 footer {
-    font-family: 'RalewayBold';
+    font-family: 'Raleway';
+    font-weight: bold;
     font-size: 10px;
     text-align: center;
     padding-bottom: 10px; 
