@@ -4,10 +4,45 @@ html {
 body {
     width: 375px;
     margin: 0 auto;
+    font-family: 'Raleway';
     background-color: #FFFFFF; 
+    color: #FFFFFF;
+}
+header {
+    padding-top: 60px; /*ADDED ............*/
+    padding-bottom: 5px; /*ADDED ............*/
+    padding-left: 25px; /*ADDED ............*/
+    padding-right: 25px; /*ADDED ............*/
+    background-image: linear-gradient(to right, #2104D9, #020659)
+}
+header h1 {
+    line-height: normal; /*ADDED ............*/
+}
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2em;
+    color: #FFFFFF;
+}
+h1, h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 20px;
+    color: #590242;
+}
+h2, h3 {
+    line-height: 2em;
+    /*More????????????????????.........*/
+}
+header p {
+    font-size: 16px;
+    color: #FFFFFF;
 }
 nav {
     width: 375px;
+    height: 67px;
     background-color: #030A8C;
     position: absolute;
     top: 0;
@@ -51,8 +86,9 @@ a:hover, input:hover {
 }
 label {
     cursor: pointer;
-    display: inline-block;
-    padding: 28px 20px;
+    display: block;
+    padding: 10px 20px; /*CHANGED.......*/
+    margin-top: -10px; /*ADEDD........*/
     position: relative;
     user-select: none;
 }
@@ -84,6 +120,7 @@ input {
 }
 input:checked ~ ul {
     max-height: 500px;
+    margin-top: 20px; /*ADDED........*/
 }
 input:checked ~ label span {
     background: transparent;
@@ -134,19 +171,23 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
     height: 50px;
     width: 350px;
 }
+h3 {
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-top: -5px; 
+}
 dl {
     display: flex;
+    margin-top: -10px; /*ADDED.......*/
     color: #590242;
 }
 dt {
-    font-family: 'Raleway';
-    font-weight: lighter;
+    font-weight: light;
     font-style: italic;
     font-size: 16px;
     padding-right: 5px;
 }
 dd {
-    font-family: 'Raleway';
     font-size: 16px;
 }
 audio {
@@ -155,7 +196,6 @@ audio {
     left: 5px;
 }
 .more {
-    font-family: 'Raleway';
     font-weight: bold;
     font-size: 14px;
     text-decoration: none;
@@ -208,46 +248,7 @@ audio::-webkit-media-controls-enclosure {
 #playlists ::-webkit-scrollbar-thumb:hover, #curated ::-webkit-scrollbar-thumb:hover {
     background: #FFFFFF;
 }
-body {
-    font-family: Optima, sans-serif;
-    color: #FFFFFF;
-}
-header p {
-    font-family: 'Raleway';
-    font-size: 20px;
-    line-height: 2em;
-    color: #FFFFFF;
-}
-header {
-    background-color: #030A8C;
-}
-h1 {
-    font-size: 20px;
-    font-family: 'Raleway';
-    font-weight: bold;
-    line-height: 2em;
-    color: #FFFFFF;
-}
-h1, h2, h3 {
-    font-weight: bold;
-    text-transform: uppercase;
-}
-h2, h3 {
-    font-family: 'Raleway';
-    font-weight: bold;
-    line-height: 2em;
-    /*More????????????????????.........*/
-}
-h2 {
-    font-size: 20px;
-    color: #590242;
-}
-h3 {
-    font-size: 16px;
-    color: #FFFFFF;
-}
 #playlists p, #curated p {
-    font-family: 'Raleway';
     font-size: 14px;
     color: #FFFFFF;
 }
@@ -255,7 +256,6 @@ h3 {
     color: #590242;
 }
 footer {
-    font-family: 'Raleway';
     font-weight: bold;
     font-size: 10px;
     text-align: center;
