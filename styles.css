@@ -47,7 +47,7 @@ nav {
 }
 ul {
     text-align: center;
-    margin: 0;
+    margin-top: 16px;
     padding: 0;
     list-style: none;
     overflow: hidden;
@@ -280,6 +280,7 @@ audio::-webkit-media-controls-enclosure {
         overflow: visible;
         position: absolute;
         top: 0;
+        margin: 0;
         width: 834px; 
         display: grid; 
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
