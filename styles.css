@@ -124,6 +124,16 @@ audio {
 .more:hover {
     background-color: #020659;
 }
+#playlists section {
+    background-color: #0D8DFD;
+    text-align: center;
+    padding: 10px;
+}
+#curated section {
+    background-color: #020873;
+    text-align: center;
+    padding: 10px;
+}
 #playlists p, #curated p {
     font-size: 14px;
     color: #FFFFFF;
@@ -222,16 +232,6 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 }
 #curated .scroll {
     background-color: #030A8C;
-}
-#playlists section {
-    background-color: #0D8DFD;
-    text-align: center;
-    padding: 10px;
-}
-#curated section {
-    background-color: #020873;
-    text-align: center;
-    padding: 10px;
 }
 .scroll {
     display: grid;
