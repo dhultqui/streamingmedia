@@ -6,8 +6,7 @@ body {
     width: 375px;
     margin: 0 auto;
     font-family: 'Raleway', sans-serif;
-    background-color: #FFFFFF; 
-    color: #FFFFFF;
+    background-color: #FFFFFF;
 }
 header {
     padding-top: 60px;
@@ -21,7 +20,7 @@ header h1 {
 }
 h1 {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 2em;
     color: #FFFFFF;
 }
@@ -34,7 +33,7 @@ nav h2 {
     height: 1px;
 }
 h1, h2, h3 {
-    font-weight: bold;
+    font-weight: 700;
     text-transform: uppercase;
 }
 nav {
@@ -65,7 +64,7 @@ li a {
 [href="#home"] {
     text-transform: capitalize;
     font-variant: small-caps;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 30px;
     position: absolute;
     top: 0;
@@ -95,7 +94,7 @@ dl {
     color: #590242;
 }
 dt {
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     font-size: 16px;
     padding-right: 5px;
@@ -110,7 +109,7 @@ audio {
     left: 5px;
 }
 .more {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     text-decoration: none;
     background-color: #590242;
@@ -130,7 +129,7 @@ audio {
     color: #FFFFFF;
 }
 footer {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 10px;
     text-align: center;
     padding-bottom: 10px; 
@@ -331,16 +330,11 @@ audio::-webkit-media-controls-enclosure {
         padding-bottom:10px;
     }
     #playlists section h3, #curated section h3 {
-        position: absolute;
-        top: 0px;
-        left: 195px;
-        box-align: center;
+        position: relative;
+        margin: 0;        
     }
     #playlists p, #curated p {
-        position: absolute;
-        top: 27px;
-        left: 170px;
-        padding-right: 30px;
+        position: relative;
     }
     #playlists .scroll, #curated .scroll {
         overflow-x: hidden;
